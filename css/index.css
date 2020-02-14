@@ -92,6 +92,11 @@ nav{
     justify-content: space-around;
 }
 
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +138,37 @@ nav{
     justify-content: center;
 }
 
+#b1{
+    background-color: teal;
+}
+#b2{
+    background-color: gold;
+}
+#b3{
+    background-color: cadetblue;
+}
+#b4{
+    background-color: coral;
+}
+#b5{
+    background-color: crimson;
+}
+#b6{
+    background-color: forestgreen;
+}
+#b7{
+    background-color: darkorchid;
+}
+#b8{
+    background-color: hotpink;
+}
+#b9{
+    background-color: indigo;
+}
+#b10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -165,3 +201,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About styles */
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+hr.line{
+    border-top: 1.5px dashed black;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.details section{
+    width:43.5%;
+    margin: 25px;
+}
+
+.details h2{
+    margin-top: 3%;
+}
+
+ .details button{
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 10px;
+     height: 9%;
+     width: 34%;
+     margin: 3% 0;
+ }
+
+@keyframes button{
+    from {background-color: white;
+        color:black;}
+    to {background-color: darkslategrey;
+        color:white;}
+}
+
+ .details button:hover{
+    animation-name: button;
+    animation-duration: .7s;
+ }
+
+ .together{
+     margin:25px 25px 35px 25px;
+ }
+
+ footer nav a{
+     color: rgb(172, 172, 172);
+ }
